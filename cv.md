@@ -16,3 +16,9 @@ The level of English is basic, but I am working hard to improve it.
     CSS 
     JavaScript
     React (basics)
+
+### 5. Code examples  
+All code examples that were written by me or with my participation are presented on [GitHub](https://github.com/Artsiom-Zhuk).
+
+### 6. Education
+Currently studying at the 4th course of Mogilev State University of Food. Also, in parallel with this, I finish courses at Rolling Scopes School.
