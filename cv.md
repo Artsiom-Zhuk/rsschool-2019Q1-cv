@@ -22,3 +22,6 @@ All code examples that were written by me or with my participation are presented
 
 ### 6. Education
 Currently studying at the 4th course of Mogilev State University of Food. Also, in parallel with this, I finish courses at Rolling Scopes School.
+
+### 7. English level  
+Learning English at school, university. Self-study.
