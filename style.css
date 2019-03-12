@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+html {
+    background-color: #F4ECEC;
+}
+
+p {
+    /* text-align: justify; */
+}
+
 .wrapper {
     margin: 0 auto;
     width: 1024px;
@@ -11,5 +19,88 @@
 header {
     width: 100%;
     height: 50px;
-    background-color: #474747;
+    background-color:   #474747;
+}
+
+.containerName {
+    width: 100%;
+    height: 200px;
+    background-color:#585656;
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-family: 'Sniglet', cursive;
+    font-size: 32px;
+    top: 20px;    
+}
+
+.speciality {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-family: 'Sniglet', cursive;
+    font-size: 26px;
+    top: 60px;
+}
+
+.myPhoto {
+    border-radius: 100%;
+    box-shadow: 0px 0px 0px 5px rgb(59, 48, 48);
+    position: absolute;
+    left: 43.77%;
+    top: 170px;
+    z-index: 1;
+}
+
+.containerSummary{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 30px;
+    background-color: white;
+    margin-top: 30px;
+    box-shadow: 0px 0px 14px 5px rgba(0,0,0,0.33);
+}
+
+.contacts {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    left: 315px;
+    top: 120px;
+}
+
+.title{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.summary {
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 150px;
+    font-size: 18px;    
+    text-align: justify;
+    font-family: 'Sniglet', cursive;
+}
+
+.skills, .code, .education, .englishLevel {
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 18px;    
+    text-align: justify;
+    font-family: 'Sniglet', cursive;
 }
