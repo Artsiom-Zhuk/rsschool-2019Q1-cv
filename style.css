@@ -7,9 +7,10 @@ html {
     background-color: #F4ECEC;
 }
 
-p {
-    /* text-align: justify; */
-}
+/* main {
+    display: flex;
+    flex-direction: column;
+} */
 
 .wrapper {
     margin: 0 auto;
@@ -53,16 +54,21 @@ header {
     top: 60px;
 }
 
+.containerMyPhoto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .myPhoto {
     border-radius: 100%;
     box-shadow: 0px 0px 0px 5px rgb(59, 48, 48);
     position: absolute;
-    left: 43.77%;
     top: 170px;
     z-index: 1;
 }
 
-.containerSummary{
+.containerSummary {
     position: relative;
     margin: 0 auto;
     width: 80%;
@@ -73,14 +79,18 @@ header {
     box-shadow: 0px 0px 14px 5px rgba(0,0,0,0.33);
 }
 
+.containerContacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .contacts {
-    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 200px;
-    left: 315px;
-    top: 120px;
+    margin-top: 120px;
 }
 
 .title{
@@ -91,7 +101,7 @@ header {
 .summary {
     width: 650px;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 50px;
     font-size: 18px;    
     text-align: justify;
     font-family: 'Sniglet', cursive;
@@ -116,4 +126,34 @@ header {
     align-items: center;
     font-family: 'Sniglet', cursive;
     font-family: 'Acme', sans-serif;
+}
+
+@media screen and (max-width: 1045px){
+    .wrapper {
+        width: 700px;
+    }
+
+    .summary, .skills, .code, .education, .englishLevel {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .wrapper {
+        width: 300px;
+    }
+
+    .summary, .skills, .code, .education, .englishLevel {
+        width: 200px;
+    }
+
+    .myPhoto {
+        width: 120px;
+        height: 120px;
+        top: 200px;
+    }
+
+    .contacts {
+        margin-top:90px;
+    }
 }
