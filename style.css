@@ -56,12 +56,17 @@ header {
 }
 
 .myPhoto {
-    border-radius: 100%;
-    box-shadow: 0px 0px 0px 5px rgb(59, 48, 48);
+    width:200px;
+    height: 200px;
     position: absolute;
     top: 170px;
     z-index: 1;
+    background: url("./images/myPhoto.jpg");
+    background-size: cover;
+    border-radius: 100%;
+    box-shadow: 0px 0px 0px 5px rgb(59, 48, 48);
 }
+
 
 .containerSummary {
     position: relative;
